@@ -1,4 +1,4 @@
-# Apm
+# Catálogo de Produtos desenvolvido durante o curso "Angular: Getting Started" da Pluralsight
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
