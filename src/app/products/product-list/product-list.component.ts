@@ -19,6 +19,10 @@ export class ProductListComponent implements OnDestroy, OnInit{
   sub!: Subscription;
   private _listFilter!: string;
 
+  get listFilter(): string {
+    return this._listFilter;
+  }
+
   set listFilter(value: string) {
     this._listFilter = value;
     this.filtredProducts = this.performFilter(value);
